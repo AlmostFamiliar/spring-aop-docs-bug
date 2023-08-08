@@ -1,0 +1,1 @@
+[Showcases](src/test/kotlin/de/strasser/peter/aopkotlinanybug/AopKotlinAnyBugApplicationTests.kt) a bug in the spring framework core documentation.
