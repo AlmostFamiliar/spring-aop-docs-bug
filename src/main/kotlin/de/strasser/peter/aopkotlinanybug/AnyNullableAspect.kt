@@ -13,6 +13,8 @@ class AnyNullableAspect {
 
     /**
      * Taken from https://docs.spring.io/spring-framework/reference/core/aop/ataspectj/example.html
+     *
+     * changed return type to Any?, as oppsed to the example in the docs
      */
     @Around("execution(* de.strasser.peter.aopkotlinanybug.AopAnyExample.worksBecauseOfNullable(..))")
     fun doConcurrentOperation(pjp: ProceedingJoinPoint): Any? {
